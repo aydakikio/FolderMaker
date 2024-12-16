@@ -195,6 +195,10 @@ int main(){
 
     std::cout << "########################## Folder Maker ##########################" <<'\n';
 
+    bool running = true;
+
+  do
+  {
     char selected_option;
     int folder_number ;
 
@@ -203,6 +207,7 @@ int main(){
     std::cout << "0 : Creating A-Z folders" << '\n';
     std::cout << "1 : Creating a-z folders" << '\n';
     std::cout << "2 : Creating 1-number folders" << '\n';
+    std::cout << "3 : Exit " << '\n';
 
     //Selecting an options 
     std::cout << "Option : ";
@@ -212,11 +217,17 @@ int main(){
     {
     case '0':
             std::cout << "Creating folders ... Please Wait !" << '\n';
+
             create_capital_aphebet_order();
+
+            std::cout << "Folders Created!" << '\n';
         break;
     case '1':
             std::cout << "Creating folders ... Please Wait !" << '\n';
+
             create_small_aphebet_order();
+
+            std::cout << "Folders Created!" << '\n';
         break;
     case '2':
             std::cout << "Please enter the number of folders that you want : ";
@@ -226,16 +237,25 @@ int main(){
             if(folder_number != 0 && folder_number > 0){
                 std::cout << "Creating folders ... Please Wait !" << '\n';
 
-                 create_numberic_order(folder_number);
+                create_numberic_order(folder_number);
+                
+                std::cout << "Folders Created!" << '\n';
             } else{
                 std::cout << "Invalid number" << '\n';
             }
 
         break;
+    case '3':
+        running = false;
+        break;
     default:
-            std::cout << "Invalid option please enter an valid option [0-2]" << '\n';
+            std::cout << "Invalid option please enter an valid option [0-3]" << '\n';
         break;
     }
+    
+  } while (running);
+  
+    std::cout << "##################################################################" <<'\n';
     
     return 0 ;
 }
