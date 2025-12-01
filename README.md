@@ -26,7 +26,7 @@ Folder Maker is a simple C++ program that helps you create folders in a specifie
 
 ```bash
 git clone https://github.com/aydakikio/FolderMaker.git
-cd folder-maker
+cd FolderMaker
 ```
 
 ### 2. Update the Path
@@ -42,7 +42,7 @@ std::string path = "PATH"; // Example: "C:/Users/YourName/Documents/"
 Use a C++ compiler to compile the code. For example, with GCC:
 
 ```bash
-g++ -std=c++17 folder_maker.cpp -o folder_maker
+g++ -std=c++17 Folder_Maker.cpp -o Folder_Maker 
 ```
 
 ### 4. Run the Program
