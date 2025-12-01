@@ -50,7 +50,7 @@ g++ -std=c++17 Folder_Maker.cpp -o Folder_Maker
 Execute the compiled program:
 
 ```bash
-./folder_maker
+./Folder_Maker
 ```
 
 ## Usage
@@ -97,26 +97,4 @@ Contributions are welcome! If you encounter issues or have feature suggestions, 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Crypto Donations
-
-If you'd like to support this project, consider donating via cryptocurrency :)
-
-
-   * BitCoin:
-     
-      > bc1qvg2q52vwpzfrqwjx73uf9q4esexwsxx3u63r9r
-      
-   * Ethereum:
-     
-      > 0x92e76FB62555C37eE39beBa5Cf17DB2C0f67856C
-      
-   * Litecoin:
-     
-      > ltc1ql4aau4ppcplddv224szvsav8zhqah474k009qk
-      
-   * Cardano:
-     
-      > addr1qxy0qskx0d74whguqn85gecf93dtry2j54eryr9agg52y86wj06yzk3pruy02ntwtak7m4naq8wvrj297jmg7eznunus9c7cw2
-
 
