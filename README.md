@@ -25,7 +25,7 @@ Folder Maker is a simple C++ program that helps you create folders in a specifie
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/folder-maker.git
+git clone https://github.com/aydakikio/FolderMaker.git
 cd folder-maker
 ```
 
